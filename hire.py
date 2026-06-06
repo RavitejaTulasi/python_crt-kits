@@ -1,0 +1,6 @@
+candidate=list(map(str, input("Enter the names of candidates: ").split()))
+cand = candidate.pop(0)
+vip = input("Enter the name of VIP candidate: ")
+candidate.insert(1, vip)
+candidate.append(cand)
+print(candidate)

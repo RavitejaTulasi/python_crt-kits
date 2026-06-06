@@ -1,0 +1,5 @@
+score = list(map(int,input("Enter the scores of students: ").split()))
+#score.sort(reverse=True)
+#ranked = sorted(score, reverse=True)
+#print(f"Ranked: {score} | Top Scorer: {score[0]}")
+print(f"Ranked: {sorted(score, reverse=True)} | Top Scorer: {max(score)}")
